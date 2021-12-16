@@ -7,27 +7,33 @@
 </template>
 
 <script>
-  import AppHeader from '../components/AppHeader';
-  import AppFooter from '../components/AppFooter';
-  export default {
-    components: {
-      AppHeader,
-      AppFooter
-    }
+export default {
+  
 }
+//   import AppHeader from '../components/AppHeader';
+//   import AppFooter from '../components/AppFooter';
+//   export default {
+//     components: {
+//       AppHeader,
+//       AppFooter
+//     }
+    
+// }
 </script>
 
 <style>
   * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
   }
   body {
     font-family: Arial, Helvtica, sans-serif;
     font-size: 1rem;
     line-height: 1.6;
-    background: #2e3445;
+    min-height: 100vh; 
+    background: linear-gradient(#261e53, #604a8d);
   }
   a {
     color: #666;
@@ -37,7 +43,7 @@
     list-style: none;
   }
 .container {
-  max-width: 800px;
+  max-width: 90%;
   margin: 2rem auto;
   overflow: hidden;
 }
