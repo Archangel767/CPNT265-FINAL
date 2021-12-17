@@ -20,13 +20,18 @@ export default {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+html {
+  background: linear-gradient(#211953, #604a8d);
+  padding: 0% 10%;
+}
+
 body {
   min-width:100vw;
   font-family: Arial, Helvtica, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   min-height: 100vh;
-  background: linear-gradient(#211953, #604a8d);
+  
 }
 a {
   color: #666;

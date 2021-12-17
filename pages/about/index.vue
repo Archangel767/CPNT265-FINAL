@@ -4,8 +4,7 @@
       <li>
         <figure>          
           <img src="#" alt="Profile pic">
-        </figure>
-        
+        </figure>        
       </li>
       <li>
         <figure>
