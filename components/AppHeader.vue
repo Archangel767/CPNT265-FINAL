@@ -1,17 +1,18 @@
 <template>
   <header class="header">
-    <ul>
+    <img src="assets/JWebb.svg" alt="logo" class="logo">
+    <ul>      
       <li>
         <nuxt-link to='/'>Home</nuxt-link>
       </li>
       <li>
-        <nuxt-link to='/projects'>Projects</nuxt-link>
-      </li>      
+        <nuxt-link :to="{path: '/', hash: '#projects'}">Projects</nuxt-link>
+      </li>     
       <li>
-        <nuxt-link to='/about'>About</nuxt-link>
+        <nuxt-link :to="{path: '/', hash: '#about'}">About</nuxt-link>
       </li>
       <li>
-        <nuxt-link to='/contact'>Contact</nuxt-link>
+        <nuxt-link :to="{path: '/', hash: '#contact'}">Contact</nuxt-link>
       </li>      
     </ul>
         
@@ -20,10 +21,15 @@
 
 <script>
 export default {
-  name: 'AppHeader'
+  name: 'AppHeader', 
 }
 </script>
+
 <style>
+.logo {
+  width: auto;  
+  height: 100px;
+}
   .header {
     display: flex;
     justify-content: center;
@@ -31,7 +37,7 @@ export default {
     background: transparent;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid grey;    
+    border-bottom: 1px solid grey;
 } 
   .header .title {
   font-size: 3rem;
