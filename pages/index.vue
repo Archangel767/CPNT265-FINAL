@@ -19,31 +19,7 @@
     </div>      
   </section>
 
-  <section id="about">
-       <h1>About</h1>
-    <ul>
-      <li>Item1</li>
-    </ul>
-  </section>
-  <section id="projects">
-    <h1>Projects</h1>
-    <ul>
-      <li>Item1</li>
-      <li>Item2</li>
-      <li>Item3</li>
-      <li>Item4</li>
-    </ul>
-    </section>
-    <section>
-    <h1 id="contact">Contact Details</h1>
-    <ul>
-      <li>Item1</li>
-      <li>Item2</li>
-      <li>Item3</li>
-      <li>Item4</li>
-    </ul>
-      </section>
-</body>  
+</body>
 </template>
 
 <script>
@@ -97,7 +73,7 @@ section img {
 section img#stars {
   object-fit: cover;
   width: auto;
-  height:  100%;
+  height:  90%;
 }
 
 section > #planet_behind {

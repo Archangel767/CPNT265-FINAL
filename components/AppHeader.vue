@@ -6,13 +6,13 @@
         <nuxt-link to='/'>Home</nuxt-link>
       </li>
       <li>
-        <nuxt-link :to="{path: '/', hash: '#projects'}">Projects</nuxt-link>
+        <nuxt-link to='/projects'>Projects</nuxt-link>
       </li>     
       <li>
-        <nuxt-link :to="{path: '/', hash: '#about'}">About</nuxt-link>
+        <nuxt-link to='/about'>About</nuxt-link>
       </li>
       <li>
-        <nuxt-link :to="{path: '/', hash: '#contact'}">Contact</nuxt-link>
+        <nuxt-link to='/contact'>Contact</nuxt-link>
       </li>      
     </ul>
         

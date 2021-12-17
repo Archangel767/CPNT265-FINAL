@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p>&copy; 2021 | JimJam Super Footer</p>
+    <p>&copy; 2021 | James Atkinson | MIT Licence</p>
   </footer>
 </template>
 <script>
@@ -11,13 +11,12 @@ export default {
 <style>
   .footer {
     display: flex;
-    justify-content: center; 
-    margin-bottom: 1rem;
+    flex-direction: row;
+    justify-content: center;     
     margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 1px dotted grey;
-    border-radius: 50%;
-    background: #2E3445;
+    border-top: 5px solid black;
+    border-radius: 50%;    
 } 
 </style>
 
